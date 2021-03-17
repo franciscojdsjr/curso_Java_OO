@@ -56,7 +56,7 @@ public class Conta {
 	}
 
 	public Cliente getTitular() {
-		this.return titular;
+		return this.titular;
 	}
 
 	public void setTitular(Cliente titular) {

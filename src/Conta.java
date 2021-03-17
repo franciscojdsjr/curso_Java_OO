@@ -7,7 +7,7 @@ public class Conta {
 
     void deposita(double valor) {
 
-        this.saldo = this.saldo + valor;
+        this.saldo += valor;
 
     }
 
@@ -15,7 +15,7 @@ public class Conta {
 
         if (this.saldo >= valor) {
 
-            this.saldo = this.saldo - valor;
+            this.saldo -= valor;
             return true;
         } else {
 
